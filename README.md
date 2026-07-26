@@ -1,7 +1,8 @@
 <h1 align="center">Xin chào, mình là Nguyễn Hữu Minh Thành 👋</h1>
 
 <p align="center">
-Sinh viên ngành <b>Mạng máy tính & Truyền thông dữ liệu</b><br>
+Sinh viên khóa K 19, ngành <b>Mạng máy tính & Truyền thông dữ liệu</b><br>
+tại <a href="https://www.haui.edu.vn"><b>Đại học Công nghiệp Hà Nội (HaUI)</b></a><br>
 Đang theo đuổi hướng <b>Network / Infrastructure Engineer</b> 🌐
 </p>
 
