@@ -14,6 +14,9 @@ tại <a href="https://www.haui.edu.vn"><b>Đại học Công nghiệp Hà Nội
 
 ---
 
+![Terminal](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=800&color=27C93F&background=0D111700&center=false&width=500&lines=%24+whoami;nguyen_huu_minh_thanh;%24+cat+role.txt;Network+%2F+Infra+Engineer)
+
+---
 ### 🔭 Đang học
 
 - 🐧 Linux administration
