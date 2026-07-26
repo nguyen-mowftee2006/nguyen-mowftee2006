@@ -14,9 +14,6 @@ tại <a href="https://www.haui.edu.vn"><b>Đại học Công nghiệp Hà Nội
 
 ---
 
-![Terminal](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=27C93F&background=0D111700&center=false&width=500&lines=%24+whoami+%E2%86%92+MowfTee-dev;%24+cat+role.txt+%E2%86%92+Network+%2F+Infra+Engineer;%24+cat+skills.txt+%E2%86%92+Linux%2C+Docker%2C+AWS%2C+Python)
-
----
 ### 🔭 Đang học
 
 - 🐧 Linux administration
