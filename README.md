@@ -1,4 +1,4 @@
-<h1 align="center">Xin chào, mình là Thanh 👋</h1>
+<h1 align="center">Xin chào, mình là Nguyễn Hữu Minh Thành 👋</h1>
 
 <p align="center">
 Sinh viên ngành <b>Mạng máy tính & Truyền thông dữ liệu</b><br>
