@@ -1,0 +1,75 @@
+{
+    echo "===== DATE ====="
+    date
+
+    echo
+    echo "===== INXI ====="
+    inxi -Fza
+
+    echo
+    echo "===== CPU ====="
+    lscpu
+
+    echo
+    echo "===== NVIDIA ====="
+    nvidia-smi
+
+    echo
+    echo "===== MEMORY ====="
+    free -h
+
+    echo
+    echo "===== BLOCK DEVICES ====="
+    lsblk -o NAME,SIZE,FSTYPE,FSVER,LABEL,UUID,MOUNTPOINTS
+
+    echo
+    echo "===== DISK USAGE ====="
+    df -hT
+
+    echo
+    echo "===== ROOT MOUNT ====="
+    findmnt /
+
+    echo
+    echo "===== ALL MOUNTS ====="
+    findmnt -t btrfs
+
+    echo
+    echo "===== BTRFS SUBVOLUMES ====="
+    sudo btrfs subvolume list /
+
+    echo
+    echo "===== BTRFS FILESYSTEM ====="
+    sudo btrfs filesystem usage /
+
+    echo
+    echo "===== AUDIO ====="
+    wpctl status
+
+    echo
+    echo "===== PYTHON ====="
+    python --version
+    pip --version 2>/dev/null || true
+
+    echo
+    echo "===== GIT ====="
+    git --version
+
+    echo
+    echo "===== OLLAMA ====="
+    ollama --version 2>/dev/null || echo "Ollama chưa được cài"
+
+    echo
+    echo "===== RELEVANT PACKAGES ====="
+    pacman -Q \
+        linux-cachyos \
+        nvidia-utils \
+        cuda \
+        cudnn \
+        ollama \
+        ollama-cuda \
+        python \
+        git \
+        pipewire \
+        wireplumber 2>/dev/null || true
+} |& tee ~/hardware-baseline.txt
